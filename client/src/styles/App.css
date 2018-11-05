@@ -1,0 +1,24 @@
+/* Base Application Styles */
+body {
+  margin: 0;
+  font-family: 'PT Sans', sans-serif;
+  color: #000000;
+}
+
+.fadeInOut-enter {
+  opacity: 0.01;
+}
+
+.fadeInOut-enter.fadeInOut-enter-active {
+  opacity: 1;
+  transition: opacity 100ms ease-in;
+}
+
+.fadeInOut-leave {
+  opacity: 1;
+}
+
+.fadeInOut-leave.fadeInOut-leave-active {
+  opacity: 0.01;
+  transition: opacity 100ms ease-in;
+}

@@ -1,0 +1,41 @@
+.container {
+  justify-content: center;
+}
+
+.authContainer {
+  padding: 50px;
+  justify-content: center;
+}
+
+.centeredStyle {
+  text-align: center;
+}
+
+.serviceContainer {
+  min-height: 15.76vh;
+  overflow-wrap: break-word;
+  box-shadow: rgba(129, 129, 129, 0.5) 0.14vh 0.27vh 0.82vh 0vh;
+}
+
+.card {
+  height: 100%;
+  width: 100%;
+}
+
+.card:hover {
+  height: 98%;
+  width: 98%;
+  transform: translate(2%,2%);
+}
+
+.stepLabel {
+  font-weight: 100;
+}
+
+.widget:hover {
+  box-shadow: rgba(0, 0, 0, 0.5) 0.14vh 0.27vh 0.82vh 0.27vh
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

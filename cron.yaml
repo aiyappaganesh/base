@@ -1,0 +1,4 @@
+cron:
+- description: "test"
+  url: /api/test
+  schedule: every 1 hours
