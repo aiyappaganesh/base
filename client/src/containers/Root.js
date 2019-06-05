@@ -12,8 +12,7 @@ import routes from 'src/routes'
 const Root = ({ store, history }) => (
   <Provider store={store}>
     <Router history={history}>
-      <Route path="/" component={App}>
-        <IndexRoute component={App} />
+      <Route exact path="/" component={App}>
         {
           routes.map(route => {
             if (route.onEnter) {
