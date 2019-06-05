@@ -3,7 +3,6 @@ import PropTypes from 'prop-types'
 import {
   Router,
   Route,
-  IndexRoute,
 } from 'react-router'
 import { Provider } from 'react-redux'
 import App from 'containers/App'
